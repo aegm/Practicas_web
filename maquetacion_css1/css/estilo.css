@@ -11,7 +11,47 @@
    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
 
-root { 
-    display: block;
+*{
+    margin: 0; padding: 0; border: 0;
+}
+
+.contenedor{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background: #ccc;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.articulo1{
+    width:300px;
+    height: 300px;
+    position: relative;
+    background: #666;
+    float: left;
+}
+
+.articulo2{
+    width:300px;
+    height: 300px;
+    position: relative;
+    background: #669;
+    float: left;
+    
+}
+.articulo3{
+    width:300px;
+    height: 300px;
+    position: relative;
+    background: #668;
+    float: left;
+}
+.articulo4{
+    width:300px;
+    height: 300px;
+    position: relative;
+    background: #665;
+    float: left;
 }
 
