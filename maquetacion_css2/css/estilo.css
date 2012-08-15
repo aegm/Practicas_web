@@ -1,0 +1,80 @@
+/* 
+    Document   : estilo
+    Created on : 15/08/2012, 01:45:46 PM
+    Author     : gonzalezan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+* { 
+ padding: 0;
+ margin: 0;
+ border: 0;
+}
+
+#web{
+    position: relative;
+    width: 900px;
+    height: auto;
+    left:50%;
+    margin-left: -450px;
+}
+
+#header{
+    width: 100%;
+    font-size: 80%;
+    height: 100px;
+    position: relative;
+    background-color: #00f;
+}
+
+#body{
+    position:  relative;
+    width: 100%;
+    height: auto;
+}
+
+#content{
+    position: relative;
+    width: 700px;
+    height: auto;
+    background: #444;
+    float: left;
+}
+
+article{
+    position: relative;
+    width: 680px;
+    height: 100px;
+    background: #0f0;
+    margin: 10px;
+    
+}
+
+aside{
+    position: relative;
+    width: 200px;
+    height: auto;
+    background: #777;
+    float: right;
+}
+.modulo{
+    position: relative;
+    width: 180px;
+    height: 210px;
+    background: #58f;
+    margin-top: 10px;
+    
+}
+#footer{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: #f00;
+    clear: both;
+}
